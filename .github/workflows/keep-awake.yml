@@ -8,4 +8,4 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 3
     steps:
-      - run: curl -s -o /dev/null -w "%{http_code} %{time_total}s\n" -m 120 https://vittflow.com/ || true
+      - run: curl -s -o /dev/null -w "%{http_code} %{time_total}s\n" -m 120 https://www.vittflow.com/ || true
